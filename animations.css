@@ -1,21 +1,23 @@
 .image-container {
   display: flex;
-  width: 100%; /* Three images, each taking 100% of the container width */
-  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+  width: 100%; /* Full width of the viewport */
+  white-space: nowrap; /* Prevents images from wrapping to the next line */
+  overflow: hidden;
 }
 
 .sliding-image {
-  width: 100%; /* Each image takes 100% of its container width */
+  width: 10%; /* Each image takes 100% of its container width */
+  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
 }
 
 @keyframes slideImages {
-  200% {
-    transform: translateX(0);
+  0% {
+    transform: translateX(1005%);
   }
 
   100% {
     transform: translateX(
-      -200%
-    ); /* Total movement is twice the width of the container */
+      -1000%
+    ); /* Total movement is three times the width of the container */
   }
 }
