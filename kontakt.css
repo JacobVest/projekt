@@ -1,0 +1,12 @@
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+label,
+select,
+input,
+button {
+  display: block;
+  gap: 2px;
+}

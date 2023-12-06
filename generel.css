@@ -13,6 +13,7 @@ img {
   height: auto;
   display: block;
 }
+
 header {
   border-bottom: black solid 1px;
 }
@@ -120,8 +121,3 @@ a {
 .nav-menu.active {
   left: 0;
 }
-
-.navbar {
-  color: white;
-}
-
