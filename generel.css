@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #00063d;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -15,8 +20,13 @@ header {
 li {
   list-style: none;
 }
+
+h1 {
+  color: white;
+}
+
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .navbar {
@@ -51,7 +61,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: white;
 }
 .menu {
   display: flex;
@@ -67,6 +77,7 @@ a {
   }
   .hamburger {
     display: block;
+    color: white;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -93,8 +104,8 @@ a {
   top: 70px;
   gap: 0px;
   flex-direction: column;
-  background-image: black;
-  background-color: bisque;
+  background-image: white;
+  background-color: #00063d;
   width: 100%;
   text-align: center;
   transition: 0.3s;
@@ -104,4 +115,8 @@ a {
 }
 .nav-menu.active {
   left: 0;
+}
+
+.navbar {
+  color: white;
 }
