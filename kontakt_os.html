@@ -4,18 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="generel.css">
     <link rel="stylesheet" href="kontakt.css">
     <title>Kontakt os</title>
 </head>
+<header>
+    <header>
+
+
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Hej</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"> Hej</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Hej</a>
+                </li>
+
+
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="menu">
+                <span class="menu">Hjem</span>
+                <span class="menu">Om Os</span>
+                <span class="menu">Services</span>
+                <span class="menu">Kontakt Os</span>
+            </div>
+        </nav>
+
+    </header>
+</header>
 
 <body>
     <main>
+        <section>
+            <header>
+                <h2>Kontakt os</h2>
+                <p>
+                    Udfyld kontaktformularen for at kontakte os.
+                </p>
+            </header>
+
+            <form>
+
+
+                <div class="form-felt">
+                    <label for="navn">Firma</label>
+                    <input id="firm-name" name="name" type="text">
+
+                    <label for="efternavn">Ønsket ad-spend</label>
+                    <input id="ad_spend" name="name" type="text">
+
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email">
+
+                    <label>Besked
+                        <select name="liste"></select>
+
+
+                        <textarea name="besked" rows="5"></textarea>
+
+
+
+                    </label>
+
+                    <button>Indsend</button>
+
+                </div>
+            </form>
+        </section>
 
 
 
     </main>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
