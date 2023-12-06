@@ -60,7 +60,11 @@ a {
   gap: 30px;
   font-size: 15px;
 }
+
 @media (max-width: 768px) {
+  .menu a {
+    display: none;
+  }
   .hamburger {
     display: block;
   }
