@@ -1,0 +1,21 @@
+.image-container {
+  display: flex;
+  width: 100%; /* Three images, each taking 100% of the container width */
+  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+}
+
+.sliding-image {
+  width: 100%; /* Each image takes 100% of its container width */
+}
+
+@keyframes slideImages {
+  200% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(
+      -200%
+    ); /* Total movement is twice the width of the container */
+  }
+}
