@@ -6,6 +6,8 @@
 
 body {
   background-color: #00063d;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 img {
@@ -13,6 +15,7 @@ img {
   height: auto;
   display: block;
 }
+
 header {
   border-bottom: black solid 1px;
 }
@@ -124,4 +127,3 @@ a {
 .navbar {
   color: white;
 }
-
