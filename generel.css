@@ -23,6 +23,10 @@ li {
 
 h1 {
   color: white;
+  font-family: "DM Serif Display", serif;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 150px;
 }
 
 a {
