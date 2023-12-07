@@ -1,7 +1,13 @@
 .omosh1 {
   font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .omosp {
   color: white;
+  line-height: 1.5rem;
+}
+
+.highlight {
+  font-weight: 900;
 }
