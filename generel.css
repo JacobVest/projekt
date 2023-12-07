@@ -6,6 +6,8 @@
 
 body {
   background-color: #00063d;
+  background-image: url(billeder/bag.png);
+  
 }
 
 img {
@@ -13,8 +15,6 @@ img {
   height: auto;
   display: block;
 }
-
-
 
 li {
   list-style: none;
