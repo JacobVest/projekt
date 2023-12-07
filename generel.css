@@ -7,7 +7,7 @@
 body {
   background-color: #00063d;
   background-image: url(billeder/bag.png);
-  
+  background-position: center;
 }
 
 img {
