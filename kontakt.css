@@ -20,8 +20,11 @@ input {
   display: block;
   gap: 2px;
   padding-bottom: 20px;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
+}
+p {
+  color: lightsteelblue;
 }
 
 section {
@@ -35,15 +38,21 @@ section {
   height: auto;
   margin: 5px auto;
 }
+.kontakt_info {
+  padding: 2rem;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+}
 
 .kontakt_os_grid {
-  display: grid;
   background-color: #00063d;
 
   align-items: center;
 }
 .kontakt_os_grid2 {
   display: grid;
+
   padding: 2rem;
   background-color: #00063d;
   margin: 0px auto;
