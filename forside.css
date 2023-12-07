@@ -1,0 +1,10 @@
+.section_et {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.prove {
+  width: auto;
+  height: 10px;
+}
