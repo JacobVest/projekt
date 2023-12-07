@@ -1,6 +1,7 @@
 .image-container {
   display: flex;
-  animation: slideImages 20s linear infinite; /* Adjust the duration as needed */
+  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+  animation-iteration-count: infinite;
 }
 
 .sliding-image {
@@ -13,6 +14,10 @@
   }
 
   100% {
-    transform: translateX(-500vw); /* Total movement is the viewport width */
+    transform: translateX(-400vw); /* Total movement is the viewport width */
+  }
+
+  101% {
+    transform: translateX(0);
   }
 }

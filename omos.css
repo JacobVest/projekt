@@ -1,7 +1,39 @@
 .omosh1 {
   font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlight {
+  font-weight: 900;
+}
+
+.omosh2 {
+  text-align: center;
+  color: white;
+}
+
+.omosh3 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .omosp {
+  text-align: center;
   color: white;
+  line-height: 1.5rem;
 }
+
+.grid_omos {
+  display: grid;
+  gap: 10%;
+}
+
+/* til desktop ====
+.grid_omos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  margin: 2%;
+}
+*/

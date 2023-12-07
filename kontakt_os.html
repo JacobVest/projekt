@@ -9,7 +9,7 @@
     <title>Kontakt os</title>
 </head>
 
-<body>
+<body class="hej">
 
     <header>
 
@@ -49,49 +49,78 @@
     </header>
 
 
-    <body>
-        <main>
-            <section>
 
-                <h2>Kontakt os</h2>
-                <p>
-                    Udfyld kontaktformularen for at kontakte os.
-                </p>
+    <main>
+        <section>
 
+
+
+
+            <div class="kontakt_os_grid">
 
                 <form>
 
 
+
+
                     <div class="form-felt">
-                        <label for="navn">Firma</label>
-                        <input id="firm-name" name="name" type="text">
 
-                        <label for="efternavn">Ønsket ad-spend</label>
-                        <input id="ad_spend" name="name" type="text">
+                        <h2 class="gradient-text">Kontakt os</h2>
 
-                        <label for="email">E-mail</label>
-                        <input id="email" name="email" type="email">
+                        <label for="navn"></label>
+                        <input id="name" name="name" type="text" placeholder="Navn" size="30">
 
-                        <label>Besked
-                            <select name="liste"></select>
+                        <label for="navn"></label>
+                        <input id="firm-name" name="name" type="text" placeholder="Firma navn" size="30">
 
+                        <label for="efternavn"></label>
+                        <input id="ad_spend" name="name" type="text" placeholder="Ad-spend i tusinde" size="30">
 
-                            <textarea name="besked" rows="5"></textarea>
+                        <label for="email"></label>
+                        <input id="email" name="email" type="email" placeholder="E-mail" size="30">
 
-
-
-                        </label>
+                        <label for="besked"></label>
+                        <input id="besked" name="name" type="text" placeholder="Besked" size="30">
 
                         <button>Indsend</button>
-
                     </div>
+
+
+
+
                 </form>
-            </section>
+                <div class="kontakt_info">
+                    <img src="" alt="">
+                    <h4>Kontakt</h4>
+                    <p>hey@makerz.dk</p>
+                    <p>+45 51 243 244</p>
+                    <h4>Kontor</h4>
+                    <p>Gammel Kongevej 140B, 2000</p>
+
+
+                </div>
 
 
 
-        </main>
-        <script src="script.js"></script>
-    </body>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <div class="footer_menu">
+            <ul class="menu">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="cases.html">Cases</a></li>
+                <li><a href="om_os.html">Om os</a></li>
+                <li><a href="kontakt_os.html">Kontakt os</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
 
 </html>
