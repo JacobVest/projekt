@@ -1,7 +1,12 @@
 form {
   padding: 2rem;
-  background: hsl(264 30% 96%);
-  border-radius: 8px;
+  background: rgb(14, 99, 244);
+  background: radial-gradient(circle, rgba(14, 99, 244, 1) 0%, rgba(2, 27, 57, 1) 100%);
+  position: relative;
+  position: relative;
+  width: auto;
+  height: 600px;
+  font-size: 20px;
 }
 label,
 select,
@@ -9,4 +14,67 @@ input,
 button {
   display: block;
   gap: 2px;
+  padding-bottom: 10px;
+}
+
+input {
+  display: block;
+  gap: 2px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+section {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+  color: white;
+}
+.form-felt {
+  width: auto;
+  height: auto;
+  margin: 5px auto;
+}
+
+.kontakt_os_grid {
+  display: grid;
+
+  background: rgb(14, 99, 244);
+  background: radial-gradient(circle, rgba(14, 99, 244, 1) 0%, rgba(2, 27, 57, 1) 100%);
+  align-items: center;
+}
+.kontakt_os_grid2 {
+  display: grid;
+  padding: 2rem;
+  background: rgb(14, 99, 244);
+  background: radial-gradient(circle, rgba(14, 99, 244, 1) 0%, rgba(2, 27, 57, 1) 100%);
+  margin: 0px auto;
+}
+.kontakt_os_grid2 img {
+  height: 100px;
+  width: 100px;
+}
+body {
+  background: rgb(14, 99, 244);
+  background: radial-gradient(circle, rgba(14, 99, 244, 1) 0%, rgba(2, 27, 57, 1) 100%);
+}
+input {
+  background: rgb(14, 99, 244);
+  background: radial-gradient(circle, rgba(14, 99, 244, 1) 0%, rgba(2, 27, 57, 1) 100%);
+  border: 0;
+  border-bottom: 1px solid white;
+}
+select {
+  background-color: hsl(264 30% 96%);
+  border: 0;
+  border-bottom: 1px solid white;
+}
+textarea {
+  background-color: hsl(264 30% 96%);
+  border: 0;
+  border-bottom: 1px solid white;
+}
+::placeholder {
+  color: white;
 }
