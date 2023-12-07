@@ -10,3 +10,8 @@ button {
   display: block;
   gap: 2px;
 }
+section {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+}
