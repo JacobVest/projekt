@@ -53,44 +53,52 @@
         <main>
             <section>
 
-                <h2>Kontakt os</h2>
-                <p>
-                    Udfyld kontaktformularen for at kontakte os.
-                </p>
-
-
-                <form>
-
-
-                    <div class="form-felt">
-                        <label for="navn">Firma</label>
-                        <input id="firm-name" name="name" type="text">
-
-                        <label for="efternavn">Ønsket ad-spend</label>
-                        <input id="ad_spend" name="name" type="text">
-
-                        <label for="email">E-mail</label>
-                        <input id="email" name="email" type="email">
-
-                        <label>Besked
-                            <select name="liste"></select>
-
-
-                            <textarea name="besked" rows="5"></textarea>
 
 
 
-                        </label>
+                <div class="kontakt_os_grid">
 
-                        <button>Indsend</button>
+                    <form>
 
-                    </div>
-                </form>
+
+
+
+                        <div class="form-felt">
+
+                            <h2>Kontakt os</h2>
+
+                            <label for="navn"></label>
+                            <input id="name" name="name" type="text" placeholder="Navn" size="30">
+
+                            <label for="navn"></label>
+                            <input id="firm-name" name="name" type="text" placeholder="Firma navn" size="30">
+
+                            <label for="efternavn"></label>
+                            <input id="ad_spend" name="name" type="text" placeholder="Ad-spend i tusinde" size="30">
+
+                            <label for="email"></label>
+                            <input id="email" name="email" type="email" placeholder="E-mail" size="30">
+
+                            <label for="besked"></label>
+                            <input id="besked" name="name" type="text" placeholder="Besked" size="30">
+
+                            <button>Indsend</button>
+
+
+                        </div>
+
+
+                    </form>
+
+
+                </div>
             </section>
 
 
 
+
         </main>
+
         <script src="script.js"></script>
     </body>
 
