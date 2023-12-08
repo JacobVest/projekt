@@ -48,15 +48,13 @@ section {
 
 .kontakt_os_grid {
   background-color: #00063d;
-
   align-items: center;
+  margin: 0 auto;
 }
 .kontakt_os_grid2 {
-  display: grid;
-
   padding: 2rem;
   background-color: #00063d;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .kontakt_os_grid2 img {
   height: 100px;
@@ -111,4 +109,9 @@ button {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+.marius_img {
+  height: 400px;
+  width: 300px;
+  border-radius: 5%;
 }
