@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 80px;
-  margin-bottom: 80px;
 }
 
 .prove {
@@ -29,5 +28,19 @@ p {
 
 .section_forside_1 img {
   width: 450px;
+  height: auto;
+}
+
+.section_forside_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 80px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.section_forside_2 img {
+  width: 300px;
   height: auto;
 }
