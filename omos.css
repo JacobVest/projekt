@@ -57,6 +57,12 @@
   margin-top: 30%;
 }
 
+.portrait_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+}
+
 /* til desktop ====
 .grid_omos {
   display: grid;
