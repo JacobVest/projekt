@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.e-mail_marketing {
+  height: 200px;
+  width: 200px;
+}
+.google_ads {
+  height: 200px;
+  width: 200px;
+}
+.meta_ads {
+  height: 200px;
+  width: 200px;
+}
+.shopify {
+  height: 200px;
+  width: 200px;
+}
+.tiktok {
+  height: 200px;
+  width: 200px;
+}
+.services {
+  display: flex;
+}
