@@ -2,9 +2,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .prove {
-  width: auto;
-  height: 10px;
+  width: 500px;
+  height: auto;
+  margin-left: 60px;
+}
+
+.section_et h2,
+p {
+  margin-left: 110px;
+  margin-top: 40px;
 }
