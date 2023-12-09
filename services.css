@@ -3,18 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.services {
-}
-.e-mail_marketing {
-  height: 100px;
-  width: 200px;
-  border: 1px solid white;
-}
-.google_ads {
-  height: 100px;
-  width: 200px;
-  border: 1px solid white;
-}
+
 .meta_ads {
   height: 100px;
   width: 200px;
@@ -33,11 +22,8 @@ h1 {
   font-size: 70px;
   padding: 0;
 }
-h2 {
-  font-size: 20px;
-  padding-left: 140px;
-}
-button {
+
+.book_meeting {
   align-items: center;
   display: inline-block;
   cursor: pointer;
@@ -54,7 +40,74 @@ button {
 }
 .marketings_hjul {
   padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  max-width: 650px;
+}
+.makerz_resultater {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  padding-bottom: 50px;
 }
 button:hover {
   color: white;
+}
+p {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  color: lightsteelblue;
+}
+.sociale_medier_list {
+  color: lightsteelblue;
+  list-style: decimal;
+  margin: 30px;
+}
+.sociale_medier_knap {
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  padding: 14px 24px;
+  margin-left: 170px;
+  margin-bottom: 80px;
+  border: none;
+  color: black;
+}
+.google_ads_p {
+  margin-bottom: 15px;
+}
+.google_ads img {
+  height: 120px;
+  width: 200px;
+  margin-left: 150px;
+}
+
+h2 {
+  margin-left: 15px;
+  font-size: 20px;
+}
+.email_logo {
+  height: 110px;
+  width: 150px;
+  margin-left: 150px;
+}
+@media (min-width: 800px) {
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid1 {
+    padding-top: 250px;
+  }
+  .makerz_resultater {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
