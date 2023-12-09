@@ -3,26 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+.services {
+}
 .e-mail_marketing {
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border: 1px solid white;
 }
 .google_ads {
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border: 1px solid white;
 }
 .meta_ads {
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border: 1px solid white;
 }
 .shopify {
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border: 1px solid white;
 }
 .tiktok {
-  height: 200px;
+  height: 100px;
   width: 200px;
 }
-.services {
-  display: flex;
+h1 {
+  font-size: 70px;
+  padding: 0;
+}
+h2 {
+  font-size: 20px;
+  padding-left: 140px;
+}
+button {
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  padding: 14px 24px;
+  margin-left: 170px;
+  margin-top: 10px;
+
+  border: none;
+  color: black;
+}
+.marketings_hjul {
+  padding-top: 50px;
+}
+button:hover {
+  color: white;
 }
