@@ -133,7 +133,7 @@ a {
   top: 70px;
   gap: 0px;
   flex-direction: column;
-  background-image: white;
+  /* background-image: white; */
   background-color: #00063d;
   width: 100%;
   text-align: center;
