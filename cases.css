@@ -1,0 +1,29 @@
+.casesh2 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  width: 80%;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+@media (min-width: 700px) {
+  .companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    width: 80%;
+    justify-content: center;
+    margin: 10px auto;
+  }
+
+  .casesmain {
+    padding: 40px;
+  }
+}
