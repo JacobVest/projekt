@@ -47,60 +47,9 @@ p {
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
-.sociale_medier_service {
-  background-color: #00063d;
-  color: #ffffff;
-  background-image: url(billeder/splash.png);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-  border-radius: 60px;
-  max-width: 500px;
-  max-height: 300px;
-}
-
-.sociale_medier_service img {
-  width: 400px;
-  height: auto;
-  align-items: center;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-.meta_service {
-  background-color: #00063d;
-  color: #ffffff;
-  background-image: url(billeder/splash.png);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-  border-radius: 60px;
-  max-width: 500px;
-  max-height: 300px;
-}
-
-.meta_service img {
-  width: 400px;
-  height: auto;
-  align-items: center;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-.google_ads_service {
-  background-color: #00063d;
-  color: #ffffff;
-  background-image: url(billeder/splash.png);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-  border-radius: 60px;
-  max-width: 500px;
-  max-height: 300px;
-}
-
-.google_ads_service img {
-  width: 400px;
-  height: auto;
-  align-items: center;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
+.meta_service,
+.google_ads_service,
+.sociale_medier_service,
 .mail_service {
   background-color: #00063d;
   color: #ffffff;
@@ -111,10 +60,28 @@ p {
   max-height: 300px;
 }
 
-.mail_service img {
+.meta_service img,
+.google_ads_service img,
+.mail_service img,
+.sociale_medier_service img {
   width: 400px;
   height: auto;
   align-items: center;
   margin-left: 40px;
   margin-top: 20px;
+}
+
+.section_trustpilot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.section_trustpilot img {
+  width: 300px;
+  height: auto;
 }
