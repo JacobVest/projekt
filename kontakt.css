@@ -6,6 +6,7 @@ form {
   width: auto;
   height: auto;
   font-size: 20px;
+  font-family: montserrat;
 }
 
 label,
@@ -15,6 +16,11 @@ button {
   display: block;
   gap: 2px;
   padding-bottom: 10px;
+  color: lightsteelblue;
+  font-family: montserrat;
+}
+label {
+  color: lightsteelblue;
 }
 
 input {
@@ -26,6 +32,7 @@ input {
 }
 p {
   color: lightsteelblue;
+  font-family: montserrat;
 }
 
 section {
@@ -50,6 +57,8 @@ section {
   background-color: #00063d;
   align-items: center;
   margin: 0 auto;
+
+  border-radius: 5%;
 }
 .kontakt_os_grid2 {
   padding: 2rem;
@@ -74,6 +83,7 @@ select {
 
   border: 0;
   border-bottom: 1px solid white;
+  color: lightsteelblue;
 }
 textarea {
   background-color: #00063d;
@@ -82,6 +92,7 @@ textarea {
 }
 ::placeholder {
   color: lightsteelblue;
+  font-family: montserrat;
 }
 button {
   align-items: center;
@@ -93,7 +104,7 @@ button {
   padding: 14px 24px;
 
   border: none;
-  color: white;
+  color: black;
 }
 button:hover {
   color: white;
@@ -117,4 +128,36 @@ button:hover {
   height: 400px;
   width: 290px;
   border-radius: 5%;
+}
+h2 {
+  font-family: montserrat;
+}
+h3 {
+  font-family: montserrat;
+  color: lightsteelblue;
+}
+h4 {
+  font-family: montserrat;
+  color: lightsteelblue;
+}
+.footer-main {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+@media (max-width: 600px) {
+  .footer-about,
+  .footer-services {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .kontakt_os_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

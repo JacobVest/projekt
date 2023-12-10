@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="generel.css">
     <link rel="stylesheet" href="kontakt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Kontakt os</title>
 </head>
 
@@ -74,8 +75,15 @@
                         <label for="navn"></label>
                         <input id="firm-name" name="name" type="text" placeholder="Firma navn" size="30">
 
-                        <label for="efternavn"></label>
-                        <input id="ad_spend" name="name" type="text" placeholder="Ad-spend i tusinde" size="30">
+
+
+                        <label for="Ad-spend">Nuværende marketing budget</label>
+                        <select id="Ad-spend" name="ad-spend">
+                            <option value="lav">5000-10.000</option>
+                            <option value="lav">10.000-20.000</option>
+                            <option value="lav">20.000-50.000</option>
+                            <option value="lav">50.000-100.000</option>
+                        </select>
 
                         <label for="email"></label>
                         <input id="email" name="email" type="email" placeholder="E-mail" size="30">
@@ -102,6 +110,28 @@
 
             </div>
         </section>
+        <footer>
+            <footer>
+                <div class="footer-main">
+                    <div class="footer-about">
+                        <h3>Om os</h3>
+
+                    </div>
+                    <div class="footer-services">
+                        <h3>Services</h3>
+
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Kontakt Us</h3>
+
+                    </div>
+                    <div class="footer-follow">
+                        <h3>Follow Us</h3>
+
+                    </div>
+                </div>
+            </footer>
+        </footer>
 
 
 
@@ -109,6 +139,7 @@
     </main>
 
     <script src="script.js"></script>
+</body>
 
 
 </html>
