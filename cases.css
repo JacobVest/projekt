@@ -3,10 +3,10 @@
 }
 
 .cases_grid {
-  background-image: url(billeder/bag.png);
+  /* background-image: url(billeder/bag.png);
   background-position: left;
   background-size: 100%;
-  background-repeat: repeat;
+  background-repeat: repeat; */
 }
 
 .cases_indhold {
@@ -33,11 +33,19 @@ p {
   color: white;
   padding: 2%;
   font-style: italic;
+  font-weight: 100;
 }
 
 .cases_data {
   margin: 10px auto;
   padding-left: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cases_data_indhold {
+  /* margin: 10px auto;
+  padding-left: 5%; */
 }
 
 .casesh2 {
@@ -71,5 +79,21 @@ h1 {
 
   .casesmain {
     padding: 40px;
+  }
+
+  .cases_grid {
+    /* background-image: url(billeder/bag.png);
+    background-position: left;
+    background-size: 100%;
+    background-repeat: repeat; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cases_data {
+    margin: 10px auto;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
