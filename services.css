@@ -3,26 +3,118 @@
   padding: 0;
   box-sizing: border-box;
 }
-.e-mail_marketing {
-  height: 200px;
-  width: 200px;
-}
-.google_ads {
-  height: 200px;
-  width: 200px;
-}
+
 .meta_ads {
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border: 1px solid white;
 }
 .shopify {
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border: 1px solid white;
 }
 .tiktok {
-  height: 200px;
+  height: 100px;
   width: 200px;
 }
-.services {
-  display: flex;
+h1 {
+  font-size: 50px;
+  padding: 0;
+}
+
+.book_meeting {
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  padding: 14px 24px;
+  margin-left: 170px;
+  margin-top: 10px;
+
+  border: none;
+  color: black;
+}
+.marketings_hjul {
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  max-width: 650px;
+}
+.makerz_resultater {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+button:hover {
+  color: white;
+}
+p {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  font-family: montserrat;
+
+  color: lightsteelblue;
+}
+.sociale_medier_list {
+  color: lightsteelblue;
+  list-style: decimal;
+  margin: 30px;
+  font-size: 20px;
+  font-family: montserrat;
+}
+.sociale_medier_knap {
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  padding: 14px 24px;
+  margin-left: 170px;
+  margin-bottom: 80px;
+  border: none;
+  color: black;
+}
+.google_ads_p {
+  margin-bottom: 15px;
+}
+.google_ads img {
+  height: 120px;
+  width: 200px;
+  margin-left: 150px;
+}
+
+h2 {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: montserrat;
+}
+.email_logo {
+  height: 110px;
+  width: 150px;
+  margin-left: 180px;
+}
+@media (min-width: 800px) {
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid1 {
+    padding-top: 250px;
+  }
+  .makerz_resultater {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

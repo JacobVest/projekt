@@ -29,8 +29,10 @@ h1 {
 }
 
 h2,
+h3,
 p {
   color: white;
+  font-family: "Dosis", sans-serif;
 }
 
 .gradient-text {
@@ -129,7 +131,7 @@ a {
   top: 70px;
   gap: 0px;
   flex-direction: column;
-  background-image: white;
+  /* background-image: white; */
   background-color: #00063d;
   width: 100%;
   text-align: center;
