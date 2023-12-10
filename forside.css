@@ -9,12 +9,14 @@
   width: 500px;
   height: auto;
   margin-left: 60px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
 .section_et h2,
 p {
   margin-left: 110px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .section_forside_1 {
@@ -36,13 +38,55 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
-  margin-left: 50px;
-  margin-top: 100px;
+  margin: 150px;
+  margin-top: 80px;
 }
 
 .section_forside_2 img {
-  width: 400px;
+  width: 350px;
   height: auto;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.meta_service,
+.google_ads_service,
+.sociale_medier_service,
+.mail_service {
+  background-color: #00063d;
+  color: #ffffff;
+  background-image: url(billeder/splash.png);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-radius: 60px;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.meta_service img,
+.google_ads_service img,
+.mail_service img,
+.sociale_medier_service img {
+  width: 400px;
+  height: auto;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.section_trustpilot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.section_trustpilot img {
+  width: 300px;
+  height: auto;
+}
+
+.body_forside {
+  margin: 30px;
 }
