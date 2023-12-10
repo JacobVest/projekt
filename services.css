@@ -19,7 +19,7 @@
   width: 200px;
 }
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   padding: 0;
 }
 
@@ -48,7 +48,7 @@ h1 {
 .makerz_resultater {
   padding-left: 15px;
   padding-right: 15px;
-
+  padding-top: 15px;
   padding-bottom: 50px;
 }
 button:hover {
@@ -57,6 +57,8 @@ button:hover {
 p {
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 20px;
+  font-family: montserrat;
 
   color: lightsteelblue;
 }
@@ -64,6 +66,8 @@ p {
   color: lightsteelblue;
   list-style: decimal;
   margin: 30px;
+  font-size: 20px;
+  font-family: montserrat;
 }
 .sociale_medier_knap {
   align-items: center;
@@ -91,12 +95,15 @@ p {
 
 h2 {
   margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   font-size: 20px;
+  font-family: montserrat;
 }
 .email_logo {
   height: 110px;
   width: 150px;
-  margin-left: 150px;
+  margin-left: 180px;
 }
 @media (min-width: 800px) {
   .services {
