@@ -112,3 +112,19 @@
     margin: 2%;
   }
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Tilpas dette efter behov */
+}
+
+.logo {
+  max-width: 100%; /* Sørg for, at logoet ikke overstiger sin naturlige størrelse */
+  height: auto;
+}
+
+#makerzlogo {
+  width: 30%;
+}
