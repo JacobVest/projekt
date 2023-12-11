@@ -18,40 +18,57 @@ body {
 }
 
 footer {
-  background-color: 08080b;
-  padding: 100px;
+  background-color: #1b1a19;
   color: #ffffff;
   background-image: url(billeder/splash.png);
   box-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Tilføj skygge (juster farven og størrelsen efter behov) */
+  border: 2px solid rgba(125, 125, 125, 0.25);
+  border-radius: 60px;
+  padding: 20px;
+  margin: 0 100px;
 }
 .footer_box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  border-radius: 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /*border-radius: 60px;*/
   margin-top: 40px;
   margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 100px;
-  border: 2px solid rgba(125, 125, 125, 0.25);
+  /*border: 2px solid rgba(125, 125, 125, 0.25);*/
+  line-height: 3rem;
 }
 
 .footer_box h2 {
-  text-align: center;
 }
 
-.om_os_footer p {
+.footer_box .om_os_footer p {
   color: rgb(123, 122, 122);
+}
+
+.om_os_footer p:hover {
+  color: white;
 }
 
 .service_footer p {
   color: rgb(123, 122, 122);
 }
-.kontakt_os_footer p {
+.service_footer p:hover {
+  color: white;
+}
+.kontakt_os_footer a {
   color: rgb(123, 122, 122);
+}
+.kontakt_os_footer a:hover {
+  color: white;
 }
 
 .folg_os_footer p {
   color: rgb(123, 122, 122);
+}
+
+.folg_os_footer p:hover {
+  color: white;
 }
 
 img {
@@ -169,8 +186,7 @@ a {
   .hamburger {
     display: block;
   }
-  .logo {
-  }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
