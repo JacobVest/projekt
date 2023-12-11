@@ -1,15 +1,10 @@
 h1 {
   margin-bottom: 80px;
+  text-align: center;
 }
 
 body {
   margin: 10px;
-}
-
-h2,
-p {
-  margin: 30px;
-  text-align: center;
 }
 
 .logo {
@@ -21,6 +16,12 @@ p {
   border-radius: 40px;
   margin-left: 45px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.grid_forside p,
+.grid_forside h2 {
+  margin: 20px;
+  text-align: center;
 }
 
 .image-container {
@@ -95,22 +96,8 @@ p {
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
-footer {
-  background-color: #1b1a19;
-  color: #ffffff;
-  background-image: url(billeder/splash.png);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Tilføj skygge (juster farven og størrelsen efter behov) */
-  border: 2px solid rgba(125, 125, 125, 0.25);
-  border-radius: 60px;
-}
-
-.footer_box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .gradient-text1 {
-  font-size: 70px;
+  font-size: 50px;
   margin: 5px;
   margin-bottom: 30px;
 }
@@ -121,6 +108,13 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 80px;
+  }
+
+  .grid_forside p,
+  .grid_forside h2 {
+    margin-left: 110px;
+    margin-top: 20px;
+    text-align: left;
   }
 
   .prove {
@@ -135,8 +129,7 @@ footer {
     padding-top: 10px;
   }
 
-  .section_et h2,
-  p {
+  .section_et h2 {
     margin-left: 110px;
     margin-top: 60px;
   }
@@ -183,6 +176,7 @@ footer {
     border-radius: 60px;
     max-width: 500px;
     max-height: 300px;
+    margin-left: -30px;
   }
 
   .meta_service img,
@@ -218,34 +212,38 @@ footer {
     height: auto;
   }
 
+  .gradient-text1 {
+    font-size: 100px;
+  }
+
   .body_forside {
     margin: 30px;
   }
-}
 
-.image-container {
-  display: flex;
-  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
-  animation-iteration-count: infinite;
-}
-
-.sliding-image {
-  width: 10%; /* Each image takes an equal portion of the viewport width */
-  margin-top: 80px;
-}
-
-@keyframes slideImages {
-  0% {
-    transform: translateX(0);
+  .image-container {
+    display: flex;
+    animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+    animation-iteration-count: infinite;
   }
 
-  100% {
-    transform: translateX(
-      calc(-988px - 100vw)
-    ); /* Total movement is the viewport width */
+  .sliding-image {
+    width: 10%; /* Each image takes an equal portion of the viewport width */
+    margin-top: 80px;
   }
-  /* 
+
+  @keyframes slideImages {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(
+        calc(-988px - 100vw)
+      ); /* Total movement is the viewport width */
+    }
+    /* 
   101% {
     transform: translateX(0);
   } */
+  }
 }

@@ -41,13 +41,12 @@ footer {
 .footer_box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  /*border-radius: 60px;*/
   margin-top: 40px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 100px;
-  /*border: 2px solid rgba(125, 125, 125, 0.25);*/
-  line-height: 3rem;
+  margin-bottom: 40px;
+}
+
+.footer_box p {
+  margin-top: 30px;
 }
 
 .footer_box .om_os_footer p,
@@ -92,7 +91,11 @@ p {
 .gradient-text,
 .gradient-text1 {
   /* Create the gradient. */
-  background-image: linear-gradient(-300deg, #ffffff, rgba(255, 255, 255, 0.456));
+  background-image: linear-gradient(
+    -300deg,
+    #ffffff,
+    rgba(255, 255, 255, 0.456)
+  );
 
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -203,7 +206,7 @@ a {
   gap: 0px;
   flex-direction: column;
   /* background-image: white; */
-  background-color: #00063d;
+  background-color: #08080b;
   width: 100%;
   text-align: center;
   transition: 0.3s;
