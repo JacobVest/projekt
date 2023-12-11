@@ -243,6 +243,17 @@ h2 {
   font-family: montserrat;
 }
 
+.gradient-text1 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.gradient-text2,
+.services_h2,
+.email_p {
+  text-align: right;
+}
+
 /* .billede {
   align-items: center;
   display: inline-block;
