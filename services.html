@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="generel.css">
     <link rel="stylesheet" href="services.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_makerz/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_makerz/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_makerz/favicon-16x16.png">
+    <link rel="manifest" href="favicon_makerz/site.webmanifest">
     <title>Document</title>
 </head>
 
 <body>
     <nav class="navbar">
+        <a href="index.html">
+            <img class="logo" src="/billeder/makerz.webp" alt="logo">
+        </a>
         <ul class="nav-menu">
             <li class="nav-item">
                 <a href="index.html" class="nav-link">Hjem</a>
@@ -28,6 +35,9 @@
             <li class="nav-item">
                 <a href="kontakt_os.html" class="nav-link">Kontakt os</a>
             </li>
+            <li class="nav-item">
+                <a href="kontakt_os.html" class="nav-link">Book et møde nu</a>
+            </li>
         </ul>
 
         <div class="hamburger">
@@ -41,6 +51,7 @@
             <li><a href="cases.html">Cases</a></li>
             <li><a href="om_os.html">Om os</a></li>
             <li><a href="kontakt_os.html">Kontakt os</a></li>
+            <li><a class="btn" href="kontakt_os.html">Book et møde</a></li>
         </ul>
     </nav>
 
@@ -49,8 +60,11 @@
             <div class="grid1">
                 <h1 class="gradient-text">Services</h1>
                 <p>Uanset hvor i processen jeres virksomhed befinder jer, kan Makerz hjælpe!</p>
-                <a href="kontakt_os.html">
-                    <button class="book_meeting">Book et møde</button></a>
+
+
+                <div class="knap">
+                    <a href="kontakt_os.html">Book et møde</a>
+                </div>
             </div>
             <div class="grid1_1">
                 <img class="marketings_hjul" src="/billeder/makerz_marketing_hjul.png" alt="marketing hjul">
@@ -58,7 +72,7 @@
         </div>
 
 
-        </div>
+
         <div class="resultater">
             <div class="grid2">
                 <h1 class="gradient-text">Målbare resultater</h1>
@@ -74,6 +88,7 @@
         </div>
         <div class="sociale_medier">
             <h1 class="gradient-text">Vores sociale medier</h1>
+            <img class="social_media_icons" src="billeder/social_media_icons.webp" alt="Ikoner">
 
             <ol type="1">
                 <li class="sociale_medier_list">Vi skaber en harmonisk tilstedeværelse på Instagram og Facebook der
@@ -92,13 +107,15 @@
                     inspirerer til handling.</li>
 
             </ol>
-            <a href="kontakt_os.html">
-                <button class="sociale_medier_knap">Book et møde</button></a>
+            <div class="knap">
+                <a href="kontakt_os.html">Book et møde</a>
+            </div>
 
         </div>
         <div class="google_ads">
             <h1 class="gradient-text">Topplacering med Google Ads</h1>
-            <img src="/billeder/google_ads.png" alt="Gogogle">
+            <div class="billede"><img src="/billeder/google_ads.png" alt="Gogogle"></div>
+
 
             <p class="google_ads_p">Google er ikke bare en søgemaskine. Det er et redskab til utallige kunder, og hos
                 Makerz ved vi hvor vigtigt det er at være på toppen af
@@ -123,55 +140,71 @@
             <p>Gennem grundig analyse og måling sikrer vi, at dine e-mail kampagner ikke kun når ud, men også leverer de
                 ønskede
                 resultater.</p>
-            <a href="kontakt_os.html">
-                <button class="sociale_medier_knap">Book et møde</button></a>
+            <div class="knap">
+                <a href="kontakt_os.html">Book et møde</a>
+            </div>
 
         </div>
-        <div class="CRO">
-            <h1 class="gradient-text">
-                CRO
-            </h1>
 
-
-        </div>
 
 
     </main>
+    <footer>
+        <div class="footer_box">
 
-    <footer class="footer_box">
-        <div class="om_os_footer">
-            <a href="om_os.html">
-                <h2>Om os</h2>
-            </a>
-            <p>3 gode grunde til i skal vælge Makerz</p>
-            <p>Mød teamet bag Makerz</p>
+            <div class="vigtige_links_footer">
+                <h2>Vigtige links</h2>
+            </div>
+
+            <div class="om_os_footer">
+                <a href="om_os.html">
+                    <h2>Om os</h2>
+                </a>
+                <p class="om_os_foooter">3 gode grunde til i skal vælge Makerz</p>
+                <p class="om_os_foooter">Mød teamet bag Makerz</p>
+            </div>
+
+            <div class="service_footer">
+                <a href="services.html">
+                    <h2>Services</h2>
+                </a>
+
+                <p>Sociale medier</p>
+
+                <a href="google_ads.html">
+                    <p>Google Ads</p>
+                </a>
+
+                <a href="email_marketing.html">
+                    <p>Mail</p>
+                </a>
+                <p>CRO</p>
+            </div>
+
+            <div class="kontakt_os_footer">
+                <h2>Kontakt os</h2>
+                <a href="kontakt_os.html">Book et møde</a>
+            </div>
+
+            <div class="folg_os_footer">
+                <h2>Følg os</h2>
+            </div>
+
         </div>
 
-        <div class="service_footer">
-            <a href="services.html">
-                <h2>Services</h2>
-            </a>
 
-            <p>Sociale medier</p>
 
-            <a href="google_ads.html">
-                <p>Google Ads</p>
-            </a>
+        <div class="footer_bund">
+            <div class="logom">
+                <img id="footerlogo" src="billeder/makerz.webp" alt="Makerzlogo">
+            </div>
 
-            <a href="email_marketing.html">
-                <p>Mail</p>
-            </a>
-            <p>CRO</p>
-        </div>
+            <div class="galleri"></div>
 
-        <div class="kontakt_os_footer">
-            <h2>Kontakt os</h2>
-            <p><a href="kontakt_os.html">Book et møde</a></p>
-        </div>
-
-        <div class="folg_os_footer">
-            <h2>Følg os</h2>
-
+            <div class="rights">
+                <p>All Rights reserved Makerz ApS 2023
+                </p>
+            </div>
         </div>
 
     </footer>

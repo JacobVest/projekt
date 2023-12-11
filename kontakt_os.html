@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="generel.css">
     <link rel="stylesheet" href="kontakt.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_makerz/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_makerz/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_makerz/favicon-16x16.png">
+    <link rel="manifest" href="favicon_makerz/site.webmanifest">
     <title>Kontakt os</title>
 </head>
 
@@ -14,7 +18,11 @@
 
     <header>
 
+
         <nav class="navbar">
+            <a href="index.html">
+                <img class="logo" src="/billeder/makerz.webp" alt="logo">
+            </a>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Hjem</a>
@@ -31,7 +39,14 @@
                 <li class="nav-item">
                     <a href="kontakt_os.html" class="nav-link">Kontakt os</a>
                 </li>
+                <li class="nav-item">
+                    <a href="kontakt_os.html" class="nav-link">Book et møde nu</a>
+                </li>
             </ul>
+
+
+
+
 
             <div class="hamburger">
                 <span class="bar"></span>
@@ -44,6 +59,8 @@
                 <li><a href="cases.html">Cases</a></li>
                 <li><a href="om_os.html">Om os</a></li>
                 <li><a href="kontakt_os.html">Kontakt os</a></li>
+                <li><a class="btn" href="kontakt_os.html">Book et møde</a></li>
+
             </ul>
         </nav>
 
@@ -91,7 +108,8 @@
                         <label for="besked"></label>
                         <input id="besked" name="name" type="text" placeholder="Besked" size="30">
 
-                        <button>Indsend</button>
+                        <a href="kontakt_os.html">
+                            <button class="sociale_medier_knap">Book et møde</button></a>
                     </div>
 
                 </form>
@@ -110,34 +128,71 @@
 
             </div>
         </section>
-        <footer>
-            <footer>
-                <div class="footer-main">
-                    <div class="footer-about">
-                        <h3>Om os</h3>
 
-                    </div>
-                    <div class="footer-services">
-                        <h3>Services</h3>
-
-                    </div>
-                    <div class="footer-contact">
-                        <h3>Kontakt Us</h3>
-
-                    </div>
-                    <div class="footer-follow">
-                        <h3>Follow Us</h3>
-
-                    </div>
-                </div>
-            </footer>
-        </footer>
 
 
 
 
     </main>
+    <footer>
+        <div class="footer_box">
 
+            <div class="vigtige_links_footer">
+                <h2>Vigtige links</h2>
+            </div>
+
+            <div class="om_os_footer">
+                <a href="om_os.html">
+                    <h2>Om os</h2>
+                </a>
+                <p class="om_os_foooter">3 gode grunde til i skal vælge Makerz</p>
+                <p class="om_os_foooter">Mød teamet bag Makerz</p>
+            </div>
+
+            <div class="service_footer">
+                <a href="services.html">
+                    <h2>Services</h2>
+                </a>
+
+                <p>Sociale medier</p>
+
+                <a href="google_ads.html">
+                    <p>Google Ads</p>
+                </a>
+
+                <a href="email_marketing.html">
+                    <p>Mail</p>
+                </a>
+                <p>CRO</p>
+            </div>
+
+            <div class="kontakt_os_footer">
+                <h2>Kontakt os</h2>
+                <a href="kontakt_os.html">Book et møde</a>
+            </div>
+
+            <div class="folg_os_footer">
+                <h2>Følg os</h2>
+            </div>
+
+        </div>
+
+
+
+        <div class="footer_bund">
+            <div class="logom">
+                <img id="footerlogo" src="billeder/makerz.webp" alt="Makerzlogo">
+            </div>
+
+            <div class="galleri"></div>
+
+            <div class="rights">
+                <p>All Rights reserved Makerz ApS 2023
+                </p>
+            </div>
+        </div>
+
+    </footer>
     <script src="script.js"></script>
 </body>
 

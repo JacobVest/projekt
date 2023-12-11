@@ -20,6 +20,11 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+.logo {
+  width: 190px;
+
+  padding-top: 10px;
+}
 
 .highlight {
   font-weight: 900;
@@ -65,8 +70,8 @@
 }
 
 .om_os_footer {
-  margin-left: 110px;
-  margin-top: 40px;
+  /*margin-left: 110px;
+  margin-top: 40px;*/
 }
 
 .grid_omos {
@@ -80,6 +85,8 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2%;
+  margin: 10px auto;
+  padding: 30px;
 }
 
 #portrait {
@@ -108,4 +115,27 @@
     gap: 5%;
     margin: 2%;
   }
+}
+
+.footer_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  cursor: pointer;
+}
+
+.rights {
+  margin: auto;
+}
+
+.footer_bund {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footerlogo {
+  width: 50%;
+}
+
+.logom {
+  margin: auto;
 }
