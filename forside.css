@@ -102,6 +102,17 @@ body {
   margin-bottom: 30px;
 }
 
+.footer_box p,
+h2,
+.footer_bund p {
+  font-size: 12px;
+}
+
+footer {
+  width: 460px;
+  margin-left: 10px;
+}
+
 @media (min-width: 800px) {
   .section_et {
     display: grid;
