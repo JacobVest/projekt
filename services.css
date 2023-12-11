@@ -84,8 +84,6 @@ p {
   padding-right: 15px;
   font-size: 20px;
   font-family: montserrat;
-
-  color: lightsteelblue;
 }
 .sociale_medier_list {
   color: lightsteelblue;
@@ -141,7 +139,7 @@ h2 {
 }
 
 .p_google {
-  text-align: left;
+  text-align: none;
 }
 
 .sociale_medier {
@@ -179,6 +177,10 @@ h2 {
   grid-template-columns: 1fr;
   padding: 10px;
   margin: 100px;
+}
+
+.email_p {
+  line-height: 2rem;
 }
 
 @media (min-width: 800px) {

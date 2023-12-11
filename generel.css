@@ -24,6 +24,14 @@ p {
   color: var(--primary-color);
 }
 
+html {
+  --secondary-color: #d2d1d1;
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
 body {
   background-color: #08080b;
   background-image: url(billeder/bag.png);
@@ -84,7 +92,6 @@ li {
 
 h1 {
   color: white;
-
   font-size: 100px;
   text-align: center;
   padding-top: 150px;
@@ -93,7 +100,6 @@ h1 {
 h2,
 h3,
 p {
-  color: white;
   font-family: montserrat;
 }
 
