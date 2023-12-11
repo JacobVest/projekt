@@ -35,17 +35,14 @@
   color: white;
   text-align: center;
   font-size: 1.5rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .omosp {
   text-align: center;
   color: lightsteelblue;
   line-height: 1.5rem;
-}
-
-.grid_omos {
-  display: grid;
-  margin-bottom: 10%;
 }
 
 .stjerne {
@@ -59,17 +56,56 @@
   /* margin-top: 30%; */
 }
 
+.omosh4 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.om_os_footer {
+  margin-left: 110px;
+  margin-top: 40px;
+}
+
+.grid_omos {
+  display: grid;
+  margin-bottom: 10%;
+  grid-template-columns: 1fr;
+  margin: 2%;
+}
+
 .portrait_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2%;
 }
 
-/* til desktop ====
-.grid_omos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5%;
-  margin: 2%;
+#portrait {
+  border-radius: 5%;
 }
-*/
+#portrait2 {
+  border-radius: 5%;
+}
+#portrait3 {
+  border-radius: 5%;
+}
+
+@media (min-width: 768px) {
+  .portrait_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    padding: 10px;
+    margin: 10px auto;
+    width: 70%;
+  }
+
+  .grid_omos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    margin: 2%;
+  }
+}
