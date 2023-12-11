@@ -104,6 +104,7 @@ h2,
 h3,
 p {
   color: white;
+  font-family: "Dosis", sans-serif;
 }
 
 .gradient-text {
@@ -229,4 +230,27 @@ a {
 }
 .nav-menu.active {
   left: 0;
+}
+
+.footer_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  cursor: pointer;
+}
+
+.rights {
+  margin: auto;
+}
+
+.footer_bund {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footerlogo {
+  width: 50%;
+}
+
+.logom {
+  margin: auto;
 }

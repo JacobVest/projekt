@@ -62,6 +62,7 @@ section {
   width: auto;
   height: auto;
   font-size: 20px;
+  line-height: 2rem;
 }
 
 .kontakt_os_grid {
@@ -124,7 +125,11 @@ button:hover {
 }
 .gradient-text {
   /* Create the gradient. */
-  background-image: linear-gradient(-300deg, #ffffff, rgba(255, 255, 255, 0.456));
+  background-image: linear-gradient(
+    -300deg,
+    #ffffff,
+    rgba(255, 255, 255, 0.456)
+  );
 
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -139,7 +144,7 @@ button:hover {
 }
 .marius_img {
   height: 400px;
-  width: 290px;
+  width: auto;
   border-radius: 5%;
 }
 h2 {
