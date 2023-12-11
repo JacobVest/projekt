@@ -131,6 +131,12 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
+@media (max-width: 768px) {
+  .menu {
+    display: none !important;
+  }
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -155,6 +161,8 @@ a {
   }
   .hamburger {
     display: block;
+  }
+  .logo {
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
