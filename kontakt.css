@@ -16,6 +16,15 @@ form {
   font-family: montserrat;
 }
 
+.kontakt_os_grid {
+  background-image: url(billeder/splash.png);
+}
+
+footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
 label,
 select,
 input,
