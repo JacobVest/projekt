@@ -63,8 +63,18 @@ h1 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; -- smilla */
 }
+
+.resultater {
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+#makerz_resultater {
+  border-radius: 50px;
+}
+
 button:hover {
   color: white;
 }
@@ -100,13 +110,14 @@ p {
   color: black;
 }
 
-.google_ads_p {
-  margin-bottom: 15px;
-}
 .google_ads img {
-  height: 120px;
-  width: 200px;
-  margin-left: 150px;
+  /* height: 120px; - smilla  */
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -129,6 +140,47 @@ h2 {
   text-align: center;
 }
 
+.p_google {
+  text-align: left;
+}
+
+.sociale_medier {
+  padding-bottom: 10%;
+  padding: 10%;
+  line-height: 2rem;
+}
+
+.google_ads_p {
+  line-height: 2rem;
+}
+
+.p_google {
+  padding-top: 10%;
+  padding: 10%;
+}
+
+#google_mobil {
+  padding-bottom: 15%;
+}
+
+#mailbox {
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.email_div {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.email_marketing {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  margin: 100px;
+}
+
 @media (min-width: 800px) {
   .services {
     display: grid;
@@ -140,6 +192,37 @@ h2 {
   .makerz_resultater {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .email_marketing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 100px;
+  }
+
+  #mailbox {
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .sociale_medier {
+    padding-bottom: 10%;
+    padding: 10%;
+    line-height: 2rem;
+  }
+
+  .google_ads {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 100px;
+    padding-bottom: 10%;
+  }
+
+  .google_ads_p {
+    margin-bottom: 15px;
   }
 }
 
@@ -157,8 +240,9 @@ h2 {
   border-radius: 4px;
   font-family: montserrat;
 }
-.billede {
+
+/* .billede {
   align-items: center;
   display: inline-block;
   margin: 0 auto;
-}
+} */
