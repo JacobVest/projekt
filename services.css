@@ -162,7 +162,7 @@ h2 {
 }
 
 #mailbox {
-  width: 70%;
+  width: 125%;
   margin: auto;
   border-radius: 20px;
 }
@@ -204,7 +204,7 @@ h2 {
   }
 
   #mailbox {
-    width: 70%;
+    width: 125%;
     margin: auto;
     border-radius: 20px;
   }
