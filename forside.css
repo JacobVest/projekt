@@ -39,9 +39,7 @@ body {
   }
 
   100% {
-    transform: translateX(
-      calc(-988px - 100vw)
-    ); /* Total movement is the viewport width */
+    transform: translateX(calc(-988px - 100vw)); /* Total movement is the viewport width */
   }
   /* 
   101% {
@@ -248,9 +246,7 @@ footer {
     }
 
     100% {
-      transform: translateX(
-        calc(-988px - 100vw)
-      ); /* Total movement is the viewport width */
+      transform: translateX(calc(-988px - 100vw)); /* Total movement is the viewport width */
     }
     /* 
   101% {

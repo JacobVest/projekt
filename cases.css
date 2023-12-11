@@ -9,13 +9,6 @@
   background-repeat: repeat; */
 }
 
-.gradient-text1 {
-  font-size: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 20px;
-}
-
 .cases_indhold {
   display: block;
   margin: 10%;
@@ -35,6 +28,7 @@ img {
 #footerlogo {
   box-shadow: none;
 }
+
 h2 {
   text-transform: uppercase;
 }
@@ -80,13 +74,23 @@ h1 {
   margin: 10px auto;
 }
 
+.footer_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#footerlogo {
+  box-shadow: none;
+}
+
 /* animation */
 
 .cases_indhold:hover {
   cursor: pointer;
   border-radius: 0;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
   scale: 105%;
 }
 
@@ -96,6 +100,8 @@ h1 {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
+
+/* animation end */
 
 @media (min-width: 700px) {
   .companies {
@@ -126,8 +132,10 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  .gradient-text1 {
-    font-size: 100px;
+  .footer_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
