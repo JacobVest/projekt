@@ -23,11 +23,11 @@ button {
   display: block;
   gap: 2px;
   padding-bottom: 10px;
-  color: lightsteelblue;
+  color: #bababa;
   font-family: montserrat;
 }
 label {
-  color: lightsteelblue;
+  color: #bababa;
 }
 .logo {
   width: 190px;
@@ -42,7 +42,6 @@ input {
   color: white;
 }
 p {
-  color: lightsteelblue;
   font-family: montserrat;
 }
 
@@ -56,6 +55,7 @@ section {
   width: auto;
   height: auto;
   margin: 5px auto;
+  line-height: 2rem;
 }
 .kontakt_info {
   padding: 2rem;
@@ -81,6 +81,11 @@ section {
   height: 100px;
   width: 100px;
 }
+
+.sociale_medier_knap {
+  margin-top: 10%;
+}
+
 body {
   background-color: #08080b;
   background-image: url(billeder/bag.png);
@@ -97,7 +102,7 @@ select {
 
   border: 0;
   border-bottom: 1px solid white;
-  color: lightsteelblue;
+  color: #bababa;
 }
 textarea {
   background-color: #08080b;
@@ -105,7 +110,7 @@ textarea {
   border-bottom: 1px solid white;
 }
 ::placeholder {
-  color: lightsteelblue;
+  color: #bababa;
   font-family: montserrat;
 }
 button {
@@ -152,11 +157,10 @@ h2 {
 }
 h3 {
   font-family: montserrat;
-  color: lightsteelblue;
+  color: #bababa;
 }
 h4 {
   font-family: montserrat;
-  color: lightsteelblue;
 }
 .footer-main {
   background-color: #333;
@@ -165,6 +169,12 @@ h4 {
   padding: 20px;
   background-color: white;
 }
+
+h5 {
+  color: #bababa;
+  font-style: italic;
+}
+
 @media (max-width: 600px) {
   .footer-about,
   .footer-services {
