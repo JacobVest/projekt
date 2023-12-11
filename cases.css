@@ -10,7 +10,10 @@
 }
 
 .gradient-text1 {
-  
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .cases_indhold {
@@ -122,5 +125,9 @@ h1 {
     padding-left: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .gradient-text1 {
+    font-size: 100px;
   }
 }
