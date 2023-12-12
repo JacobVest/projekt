@@ -1,20 +1,13 @@
-html {
-  --font-family: montserrat;
-}
-h2,
-h1,
-h3,
-h4,
-p {
-  font-family: var(--font-family);
-}
-
 .omosh1 {
   font-size: 5rem;
   font-family: Arial, Helvetica, sans-serif;
 
   /* Create the gradient. */
-  background-image: linear-gradient(-300deg, #ffffff, rgba(255, 255, 255, 0.456));
+  background-image: linear-gradient(
+    -300deg,
+    #ffffff,
+    rgba(255, 255, 255, 0.456)
+  );
 
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -46,7 +39,7 @@ p {
 .omosh3 {
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -135,7 +128,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
-    margin: 2%;
+    margin: 6%;
   }
 
   #fb,
@@ -176,4 +169,11 @@ p {
 
 .rights {
   margin: auto;
+}
+
+.kontakt_os_footer,
+.service_footer,
+.om_os_footer,
+.vigtige_links_footer {
+  margin: 0 auto;
 }
