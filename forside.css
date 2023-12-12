@@ -1,5 +1,5 @@
 h1 {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -14,7 +14,6 @@ body {
 .prove {
   max-width: 400px;
   border-radius: 40px;
-  margin-left: 45px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
@@ -39,7 +38,9 @@ body {
   }
 
   100% {
-    transform: translateX(calc(-988px - 100vw)); /* Total movement is the viewport width */
+    transform: translateX(
+      calc(-988px - 100vw)
+    ); /* Total movement is the viewport width */
   }
   /* 
   101% {
@@ -66,7 +67,7 @@ body {
 .google_ads_service img,
 .mail_service img,
 .sociale_medier_service img {
-  width: 400px;
+  width: 300px;
   height: auto;
   align-items: center;
   margin-top: 20px;
@@ -95,7 +96,7 @@ body {
 }
 
 .gradient-text1 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 5px;
   margin-bottom: 30px;
 }
@@ -108,7 +109,6 @@ body {
 
 footer {
   width: 460px;
-  margin-left: 10px;
 }
 
 @media (min-width: 800px) {
@@ -246,7 +246,9 @@ footer {
     }
 
     100% {
-      transform: translateX(calc(-988px - 100vw)); /* Total movement is the viewport width */
+      transform: translateX(
+        calc(-988px - 100vw)
+      ); /* Total movement is the viewport width */
     }
     /* 
   101% {
