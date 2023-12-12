@@ -29,11 +29,10 @@ body {
 
 .image-container {
   display: flex;
-  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+  animation: slideImages 40s linear infinite; /* Adjust the duration as needed */
   animation-iteration-count: infinite;
-  margin-top: 50px;
-  height: 200px;
-  width: 1300px;
+  margin-top: 80px;
+  width: 40%;
 }
 
 @keyframes slideImages {
@@ -43,7 +42,7 @@ body {
 
   100% {
     transform: translateX(
-      calc(-988px - 100vw)
+      calc(-3400px - 100vw)
     ); /* Total movement is the viewport width */
   }
   /* 
@@ -251,12 +250,12 @@ footer {
 
   .image-container {
     display: flex;
-    animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+    animation: slideImages 40s linear infinite; /* Adjust the duration as needed */
     animation-iteration-count: infinite;
   }
 
   .sliding-image {
-    width: 10%; /* Each image takes an equal portion of the viewport width */
+    width: 40%; /* Each image takes an equal portion of the viewport width */
     margin-top: 80px;
   }
 
@@ -267,7 +266,7 @@ footer {
 
     100% {
       transform: translateX(
-        calc(-988px - 100vw)
+        calc(-3400px - 100vw)
       ); /* Total movement is the viewport width */
     }
     /* 
