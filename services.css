@@ -187,9 +187,11 @@ h2 {
   .services {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding-left: 10%;
   }
   .grid1 {
-    padding-top: 250px;
+    padding-top: 211px;
   }
   .makerz_resultater {
     padding-left: 20px;
