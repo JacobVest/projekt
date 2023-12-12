@@ -39,7 +39,7 @@
 .omosh3 {
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -128,7 +128,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
-    margin: 2%;
+    margin: 6%;
   }
 
   #fb,
