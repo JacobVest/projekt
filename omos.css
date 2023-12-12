@@ -170,3 +170,10 @@
 .rights {
   margin: auto;
 }
+
+.kontakt_os_footer,
+.service_footer,
+.om_os_footer,
+.vigtige_links_footer {
+  margin: 0 auto;
+}
