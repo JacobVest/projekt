@@ -65,6 +65,21 @@ h1 {
   margin-bottom: 200px;
 }
 
+.knap {
+  text-align: center;
+  margin: 150px;
+}
+
+.knap a {
+  padding: 14px 24px;
+  background-color: #262524;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 7px;
+  font-family: montserrat;
+  font-size: 4rem;
+}
+
 .companies {
   display: grid;
   grid-template-columns: 1fr 1fr;

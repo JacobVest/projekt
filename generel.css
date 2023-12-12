@@ -120,6 +120,16 @@ p {
   text-align: center;
 }
 
+/* .gradient-text a {
+  border: 1px grey solid;
+  border-radius: 20px;
+  padding: 1%;
+}
+.gradient-text a:hover {
+  border: 1px white solid;
+  box-shadow: inset 0 0 10px 0 white;
+} */
+
 a {
   color: white;
   text-decoration: none;
