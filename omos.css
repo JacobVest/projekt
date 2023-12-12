@@ -1,14 +1,3 @@
-html {
-  --font-family: montserrat;
-}
-h2,
-h1,
-h3,
-h4,
-p {
-  font-family: var(--font-family);
-}
-
 .omosh1 {
   font-size: 5rem;
   font-family: Arial, Helvetica, sans-serif;
