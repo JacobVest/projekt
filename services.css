@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.meta_ads {
+  height: 100px;
+  width: 200px;
+  border: 1px solid white;
+}
+.shopify {
+  height: 100px;
+  width: 200px;
+  border: 1px solid white;
+}
 .social_media_icons {
   max-width: 400px;
   margin: 0 auto;
@@ -48,6 +58,10 @@ h1 {
   /* padding-bottom: 50px; -- smilla */
 }
 
+.resultater_p {
+  padding-bottom: 15px;
+}
+
 .resultater {
   padding-bottom: 5%;
   padding-top: 10%;
@@ -55,6 +69,8 @@ h1 {
 
 #makerz_resultater {
   border-radius: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 button:hover {
@@ -129,6 +145,7 @@ h2 {
 
 .google_ads_p {
   line-height: 2rem;
+  color: #bababa;
 }
 
 .p_google {
@@ -226,10 +243,22 @@ h2 {
   text-align: left;
 }
 
-.gradient-text2,
+.gradient-text1,
 .services_h2,
 .email_p {
   text-align: left;
+}
+
+.gradient-text1 {
+  font-size: 2.5rem;
+}
+
+.services_h2 {
+  font-weight: bolder;
+}
+
+.grae {
+  color: #bababa;
 }
 
 /* .billede {
