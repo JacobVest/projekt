@@ -4,24 +4,11 @@
   box-sizing: border-box;
 }
 
-.meta_ads {
-  height: 100px;
-  width: 200px;
-  border: 1px solid white;
-}
-.shopify {
-  height: 100px;
-  width: 200px;
-  border: 1px solid white;
-}
 .social_media_icons {
   max-width: 400px;
   margin: 0 auto;
 }
-.tiktok {
-  height: 100px;
-  width: 200px;
-}
+
 .logo {
   width: 190px;
 
