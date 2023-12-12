@@ -3,11 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #08080b;
-  background-image: url(billeder/bag.webp);
-  background-position: left;
-}
+
 .meta_ads {
   height: 100px;
   width: 200px;
@@ -22,10 +18,7 @@ body {
   max-width: 400px;
   margin: 0 auto;
 }
-.tiktok {
-  height: 100px;
-  width: 200px;
-}
+
 .logo {
   width: 190px;
 
