@@ -3,6 +3,10 @@ h1 {
   text-align: center;
 }
 
+.gradient-text10 {
+  font-size: 30px;
+}
+
 body {
   margin: 10px;
 }
@@ -60,7 +64,6 @@ body {
   border-radius: 60px;
   max-width: 400px;
   max-height: 200px;
-  margin-left: 40px;
 }
 
 .meta_service img,
@@ -71,6 +74,7 @@ body {
   height: auto;
   align-items: center;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .trustpilot_overskrift {
@@ -108,7 +112,7 @@ body {
 }
 
 footer {
-  width: 460px;
+  width: 400px;
 }
 
 @media (min-width: 800px) {
@@ -117,6 +121,10 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 80px;
+  }
+
+  .gradient-text10 {
+    font-size: 80px;
   }
 
   .grid_forside p,

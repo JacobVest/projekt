@@ -45,11 +45,10 @@ footer {
   border: 2px solid rgba(125, 125, 125, 0.25);
   border-radius: 60px;
   padding: 20px;
-  margin: 0 100px;
 }
 .footer_box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 40px;
   margin-bottom: 40px;
 }
