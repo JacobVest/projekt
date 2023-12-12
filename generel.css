@@ -41,6 +41,12 @@ body {
   background-position: left;
 }
 
+.knap a:hover {
+  background-color: whitesmoke;
+  opacity: 80%;
+  color: black;
+}
+
 .btn {
   color: rgb(255, 255, 255);
   background-color: #262524;
@@ -112,11 +118,7 @@ p {
 .gradient-text1,
 .gradient-text10 {
   /* Create the gradient. */
-  background-image: linear-gradient(
-    -300deg,
-    #ffffff,
-    rgba(255, 255, 255, 0.456)
-  );
+  background-image: linear-gradient(-300deg, #ffffff, rgba(255, 255, 255, 0.456));
 
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -152,7 +154,6 @@ a {
   align-items: center;
   padding: 0 24px;
   font-size: 25px;
-  text-transform: uppercase;
 }
 .nav-menu {
   display: flex;
@@ -190,8 +191,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  font-size: 15px;
+  gap: 60px;
+  font-size: 17px;
 }
 
 @media (max-width: 768px) {
