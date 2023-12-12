@@ -106,7 +106,8 @@ body {
 
 .knap {
   text-align: center;
-  margin: 100px;
+  margin: auto;
+  padding: 40px;
   font-size: 20px;
 }
 
