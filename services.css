@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #08080b;
-  background-image: url(billeder/bag.png);
-  background-position: left;
-}
 
 .meta_ads {
   height: 100px;
