@@ -57,7 +57,7 @@ body {
 .mail_service {
   background-color: #262524;
   color: #ffffff;
-  background-image: url(billeder/splash.png);
+  background-image: url(billeder/splash.webp);
   background-position: top;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   border-radius: 60px;
@@ -106,7 +106,9 @@ body {
 
 .knap {
   text-align: center;
-  margin: 150px;
+  margin: auto;
+  padding: 40px;
+  font-size: 20px;
 }
 
 .knap a {
