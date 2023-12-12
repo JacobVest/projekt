@@ -54,7 +54,8 @@ footer {
 }
 
 .footer_box p {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .footer_box .om_os_footer p,
@@ -230,7 +231,7 @@ a {
 
 .footer_box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   cursor: pointer;
 }
 
