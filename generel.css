@@ -15,8 +15,16 @@ p {
   font-family: var(--font-family);
 }
 
-h1 {
+h1,
+a {
   font-family: "Gloock", serif;
+}
+
+h1,
+.gradient-text,
+.gradient-text1,
+.gradient-text10 {
+  font-size: 80px;
 }
 
 html {
@@ -263,11 +271,4 @@ a {
 
 .logom {
   margin: auto;
-}
-
-.gradient-text {
-  font-size: 4rem;
-}
-.gradient-text1 {
-  font-size: 2.5rem;
 }
