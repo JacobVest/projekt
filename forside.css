@@ -100,6 +100,21 @@ body {
   margin-bottom: 30px;
 }
 
+.knap {
+  text-align: center;
+  margin: 150px;
+}
+
+.knap a {
+  padding: 14px 24px;
+  background-color: #262524;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 7px;
+  font-family: montserrat;
+  font-size: 4rem;
+}
+
 .footer_box p,
 .footer_box h2,
 .footer_bund p {
