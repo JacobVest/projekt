@@ -130,15 +130,16 @@ p {
   #fb,
   #twitter,
   #insta {
-    width: 12%;
+    width: 8%;
     margin: auto;
   }
 }
 
 .footer_box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   cursor: pointer;
+  gap: 2%;
 }
 
 .rights {
@@ -147,12 +148,15 @@ p {
 
 .footer_bund {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #footerlogo {
   width: 50%;
   margin: auto;
+}
+.ikoner {
+  display: flex;
 }
 
 .logom {
