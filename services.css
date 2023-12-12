@@ -8,7 +8,6 @@ body {
   background-image: url(billeder/bag.webp);
   background-position: left;
 }
-
 .meta_ads {
   height: 100px;
   width: 200px;
@@ -66,6 +65,10 @@ h1 {
   /* padding-bottom: 50px; -- smilla */
 }
 
+.resultater_p {
+  padding-bottom: 15px;
+}
+
 .resultater {
   padding-bottom: 5%;
   padding-top: 10%;
@@ -73,6 +76,8 @@ h1 {
 
 #makerz_resultater {
   border-radius: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 button:hover {
