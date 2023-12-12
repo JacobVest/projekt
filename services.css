@@ -140,6 +140,7 @@ h2 {
 
 .p_google {
   text-align: none;
+  margin-top: 180px;
 }
 
 .sociale_medier {
@@ -168,8 +169,7 @@ h2 {
 }
 
 .email_div {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin-top: 255px;
 }
 
 .email_marketing {
@@ -177,6 +177,10 @@ h2 {
   grid-template-columns: 1fr;
   padding: 10px;
   margin: 100px;
+}
+
+.gradient-text50 {
+  text-align: left;
 }
 
 .email_p {
