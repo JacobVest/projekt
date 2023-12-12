@@ -25,6 +25,7 @@ body {
 .grid_forside h2 {
   margin: 20px;
   text-align: center;
+  line-height: 30px;
 }
 
 .image-container {
@@ -153,6 +154,7 @@ footer {
 
   .gradient-text10 {
     font-size: 80px;
+    margin-top: -190px;
   }
 
   .grid_forside p,
@@ -176,7 +178,7 @@ footer {
 
   .section_et h2 {
     margin-left: 110px;
-    margin-top: 60px;
+    margin-top: 38px;
   }
 
   .section_forside_1 {
