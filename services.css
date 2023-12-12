@@ -80,7 +80,6 @@ button:hover {
 }
 
 p {
-  padding-left: 15px;
   padding-right: 15px;
   font-size: 20px;
   font-family: montserrat;
@@ -119,7 +118,6 @@ h1 {
 }
 
 h2 {
-  margin-left: 15px;
   margin-bottom: 5px;
   margin-top: 5px;
   font-size: 20px;
@@ -223,8 +221,9 @@ h2 {
     padding-bottom: 10%;
   }
 
-  .google_ads_p {
-    margin-bottom: 15px;
+  .google_ads_p h2,
+  .google_ads_p p {
+    margin-top: 30px;
   }
 }
 
@@ -245,13 +244,12 @@ h2 {
 
 .gradient-text1 {
   text-align: left;
-  margin-left: 10px;
 }
 
 .gradient-text2,
 .services_h2,
 .email_p {
-  text-align: right;
+  text-align: left;
 }
 
 /* .billede {
