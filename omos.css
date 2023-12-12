@@ -5,12 +5,18 @@
 
 .vid {
   margin-left: 70px;
+  margin-bottom: 100px;
 }
 
 .logo {
   width: 147px;
 
   padding-top: 10px;
+}
+
+.gradient-text40 {
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .highlight {
@@ -27,20 +33,20 @@
   color: white;
   text-align: center;
   font-size: 1.3rem;
-  margin-bottom: 15px;
   margin-top: 15px;
 }
 
 .omosp {
   text-align: center;
   color: #bababa;
-  line-height: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 110px;
 }
 
 .stjerne {
   width: 10%;
   margin: 10px auto;
-  margin-top: 10%;
+  margin-top: -25px;
 }
 
 .omosh2team {
