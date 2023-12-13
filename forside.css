@@ -7,6 +7,18 @@
   margin-top: 50px;
 }
 
+.gradient-text {
+  margin-bottom: 50px;
+}
+
+.section_et h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  line-height: 30px;
+}
+
 .logo {
   width: 147px;
 }
@@ -18,11 +30,11 @@
   margin: 0 auto;
 }
 
-.grid_forside p,
-.grid_forside h2 {
+.grid_forside p {
   margin: 20px;
   text-align: center;
   line-height: 30px;
+  margin-bottom: 30px;
 }
 
 .image-container {
