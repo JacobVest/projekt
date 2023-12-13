@@ -163,7 +163,8 @@
     grid-template-rows: 1fr 1fr;
     gap: 40px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: -105px;
+    padding: 246px;
   }
 
   .section_forside_1 img {
@@ -214,6 +215,8 @@
 
   .trustpilot_overskrift {
     display: block;
+    margin-left: 114px;
+    margin-right: 171px;
   }
 
   .trustpilot_overskrift1 {
@@ -226,7 +229,8 @@
     grid-template-rows: 1fr 1fr;
     padding: 10px;
     margin-top: 100px;
-    margin: 0 auto;
+    margin-left: 114px;
+    margin-right: 171px;
   }
 
   .section_trustpilot img {
