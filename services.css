@@ -64,8 +64,8 @@ h1 {
 }
 
 #makerz_resultater {
-  border-radius: 50px;
-  width: 80%;
+  border-radius: 40px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -135,7 +135,6 @@ h2 {
 }
 
 .p_google {
-  text-align: none;
   margin-top: 180px;
 }
 
@@ -196,6 +195,7 @@ h2 {
   .makerz_resultater {
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 80%;
   }
 
   .email_marketing {
