@@ -43,7 +43,14 @@ body {
   background-position: left;
 }
 
-/* ÆNDRE STØRRELSE PÅ KNAP */
+.knap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.knap a {
+  font-size: 20px;
+}
 
 footer {
   background-color: #1b1a19;
@@ -101,6 +108,10 @@ p {
   line-height: 1.5rem;
 }
 
+.gradient-text_h2 {
+  font-size: 60px;
+  margin-top: 50px;
+}
 .gradient-text,
 .gradient-text1,
 .gradient-text10,
