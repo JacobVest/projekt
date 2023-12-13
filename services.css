@@ -186,6 +186,30 @@ h2 {
   line-height: 2rem;
 }
 
+.gradient-text1,
+.services_h2,
+.email_p {
+  text-align: left;
+}
+
+.gradient-text1 {
+  font-size: 2.5rem;
+}
+
+.gradient-text50 {
+  text-align: left;
+  margin-top: -241px;
+}
+
+.services_h2 {
+  color: white;
+}
+
+.services_h2_2 {
+  padding-top: 20px;
+  color: white;
+}
+
 @media (min-width: 800px) {
   .services {
     display: grid;
@@ -231,34 +255,8 @@ h2 {
   .google_ads_p p {
     margin-top: 5px;
   }
-}
 
-.gradient-text1,
-.services_h2,
-.email_p {
-  text-align: left;
+  footer {
+    margin-top: -300px;
+  }
 }
-
-.gradient-text1 {
-  font-size: 2.5rem;
-}
-
-.gradient-text50 {
-  text-align: left;
-  margin-top: -241px;
-}
-
-.services_h2 {
-  color: white;
-}
-
-.services_h2_2 {
-  padding-top: 20px;
-  color: white;
-}
-
-/* .billede {
-  align-items: center;
-  display: inline-block;
-  margin: 0 auto;
-} */
