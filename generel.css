@@ -9,7 +9,8 @@ html {
   --primary-color: #bababa;
 }
 
-p {
+p,
+a {
   font-family: var(--font-family);
 }
 
@@ -141,11 +142,12 @@ p {
 }
 
 a {
+  color: #bababa;
   text-decoration: none;
 }
 
 .navbar {
-  height: 250px;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +156,7 @@ a {
 }
 
 .menu a:hover {
-  color: #bababa;
+  color: white;
 }
 .nav-menu {
   display: flex;
@@ -191,11 +193,10 @@ ul.menu {
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
-.hamburger.active .bar:nth-child(1) {
-  opacity: 0;
-}
+
 .hamburger {
   display: block;
+  z-index: 99;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -208,7 +209,7 @@ ul.menu {
   transform: translateY(-8px) rotate(-45deg);
 }
 .navbar {
-  min-height: 70px;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -249,12 +250,18 @@ ul.menu {
   margin: auto;
 }
 
+.btn {
+  display: none;
+}
+
 @media (min-width: 800px) {
   .btn {
-    color: rgb(255, 255, 255);
-    background-color: #262524;
+    display: block;
+    color: #262524;
+    background-color: white;
     border-radius: 4px;
     padding: 14px 24px;
+    font-size: 1rem;
   }
   h1,
   .gradient-text,
@@ -262,6 +269,7 @@ ul.menu {
   .gradient-text10 {
     font-size: 100px;
     margin-top: -150px;
+    padding-top: 15%;
   }
 
   .knap a:hover {
