@@ -7,6 +7,10 @@
   margin-top: 50px;
 }
 
+.logo {
+  width: 147px;
+}
+
 .prove {
   max-width: 400px;
   border-radius: 40px;
@@ -57,6 +61,7 @@
   border-radius: 60px;
   max-width: 400px;
   max-height: 200px;
+  margin: 0 auto;
 }
 
 .meta_service img,
@@ -81,19 +86,21 @@
 .section_trustpilot {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 10px;
 }
 .section_forside_2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 
 .section_forside_2 img {
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-  max-width: 150px;
-  margin-left: 2px;
-  margin-top: 5px;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 .gradient-text1 {
@@ -102,28 +109,10 @@
   margin-bottom: 30px;
 }
 
-
-
-.footer_box p,
-.footer_box h2,
-.footer_bund p {
-  font-size: 14px;
-}
-
-.footer_box {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
-
-footer {
-  width: 362px;
-}
-
 .vigtige_links {
   grid-row: 2;
   grid-column: 2;
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: left;
 }
 
 @media (min-width: 800px) {
@@ -149,7 +138,7 @@ footer {
   .prove {
     width: 500px;
     height: auto;
-    margin-left: 120px;
+    margin: 0 auto;
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   }
@@ -168,7 +157,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 40px;
-    margin-left: 160px;
+    margin: 0 auto;
     margin-top: 100px;
   }
 
@@ -182,10 +171,12 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0 auto;
+    width: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   .section_forside_2 img {
-    height: auto;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   }
@@ -202,18 +193,18 @@ footer {
     border-radius: 60px;
     max-width: 500px;
     max-height: 300px;
-    margin-left: -30px;
+    margin: 0 auto;
   }
 
   .meta_service img,
   .google_ads_service img,
   .mail_service img,
   .sociale_medier_service img {
-    width: 400px;
+    width: 450px;
     height: auto;
     align-items: center;
-    margin-left: 40px;
     margin-top: 20px;
+    margin: 0 auto;
   }
 
   .trustpilot_overskrift {
@@ -230,7 +221,7 @@ footer {
     grid-template-rows: 1fr 1fr;
     padding: 10px;
     margin-top: 100px;
-    margin-left: 20px;
+    margin: 0 auto;
   }
 
   .section_trustpilot img {
