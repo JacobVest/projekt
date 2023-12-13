@@ -16,6 +16,11 @@ footer {
 
 .gradient-text30 {
   font-size: 30px;
+  margin-top: -245px;
+}
+
+h5 {
+  font-style: italic;
 }
 
 label,
@@ -67,8 +72,8 @@ section {
   background-color: #08080b;
   align-items: center;
   margin: 0 auto;
-
   border-radius: 5%;
+  margin-top: 5%;
 }
 .kontakt_os_grid2 {
   padding: 2rem;
