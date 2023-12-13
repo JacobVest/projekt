@@ -245,6 +245,7 @@ ul.menu {
 .nav-menu {
   position: fixed;
   left: -100%;
+  top: 0px;
   gap: 0px;
   flex-direction: column;
   /* background-image: white; */
