@@ -16,7 +16,17 @@
 }
 
 .vid {
-  margin-left: 70px;
+  padding: 30px;
+  margin-left: 5px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  max-width: 1250px;
+  margin: 0 auto;
+
+  aspect-ratio: 16/9;
 }
 
 .gradient-text40 {
@@ -118,8 +128,7 @@
     margin-top: 20px;
     padding: 10px;
   }
-
-  .gradient-text_h3 {
-    margin-bottom: 40px;
+  .vid {
+    margin-left: 60px;
   }
 }
