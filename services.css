@@ -230,21 +230,6 @@ h2 {
   }
 }
 
-.knap {
-  text-align: center;
-  margin-top: 20px;
-  border-radius: 10px;
-}
-
-.knap a {
-  padding: 14px 24px;
-  background-color: #262524;
-  color: #ffffff;
-  display: inline-block;
-  border-radius: 4px;
-  font-family: montserrat;
-}
-
 .gradient-text1 {
   text-align: left;
 }
