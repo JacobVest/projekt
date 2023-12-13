@@ -1,0 +1,37 @@
+h1,
+.gradient-text,
+.gradient-text1,
+.gradient-text10 {
+  font-size: 100px;
+  margin-top: -150px;
+}
+
+.knap a:hover {
+  background-color: whitesmoke;
+  opacity: 80%;
+  color: black;
+} 
+
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: #262524;
+  border-radius: 4px;
+  padding: 14px 24px;
+}
+
+.menu a:hover {
+  color: #bababa;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  z-index: 1;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
