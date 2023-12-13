@@ -293,6 +293,7 @@ ul.menu {
 
 .logo {
   max-width: 100px;
+  z-index: 99;
 }
 
 @media (min-width: 800px) {
