@@ -16,7 +16,8 @@
 }
 
 .vid {
-  padding: 40px;
+  padding: 30px;
+  margin-left: 5px;
 }
 
 iframe {
@@ -126,5 +127,8 @@ iframe {
 
     margin-top: 20px;
     padding: 10px;
+  }
+  .vid {
+    margin-left: 60px;
   }
 }
