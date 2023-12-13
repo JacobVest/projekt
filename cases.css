@@ -21,10 +21,7 @@ img {
   border-radius: 10%;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.68);
 }
-.logo {
-  box-shadow: none;
-  width: 35%;
-}
+
 #footerlogo {
   box-shadow: none;
 }
@@ -34,6 +31,14 @@ img {
   padding-left: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.cases_data h2 {
+  padding-top: 30px;
+  text-align: center;
+}
+.cases_data h3,
+.cases_data p {
+  padding-left: 5px;
 }
 
 .cases_data_indhold {

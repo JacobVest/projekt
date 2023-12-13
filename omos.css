@@ -3,15 +3,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.vid {
-  margin-left: 70px;
-  margin-bottom: 180px;
+.gradient-text {
+  margin-bottom: 60px;
+}
+.gradient-text_h2 {
+  font-size: 50px;
+  margin-bottom: 80px;
 }
 
-.logo {
-  width: 147px;
+.gradient-text_h3 {
+  font-size: 50px;
+}
 
-  padding-top: 10px;
+.vid {
+  margin-left: 70px;
 }
 
 .gradient-text40 {
@@ -30,7 +35,6 @@
 }
 
 .omosh3 {
-  color: white;
   text-align: center;
   font-size: 1.3rem;
   margin-top: 15px;
@@ -40,7 +44,9 @@
   text-align: center;
   color: #bababa;
   line-height: 2rem;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .stjerne {
@@ -92,21 +98,6 @@
   border-radius: 5%;
 }
 
-.knap {
-  text-align: center;
-  margin: 150px;
-}
-
-.knap a {
-  padding: 14px 24px;
-  background-color: #262524;
-  color: #ffffff;
-  display: inline-block;
-  border-radius: 7px;
-  font-family: montserrat;
-  font-size: 4rem;
-}
-
 @media (min-width: 768px) {
   .portrait_grid {
     display: grid;
@@ -130,43 +121,13 @@
     width: 8%;
     margin: auto;
   }
-}
 
-.footer_box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  cursor: pointer;
-  gap: 2%;
-}
+  .omosp {
+    text-align: center;
+    color: #bababa;
+    line-height: 2rem;
 
-.rights {
-  margin: auto;
-}
-
-.footer_bund {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-#footerlogo {
-  width: 50%;
-  margin: auto;
-}
-.ikoner {
-  display: flex;
-}
-
-.logom {
-  margin: auto;
-}
-
-.rights {
-  margin: auto;
-}
-
-.kontakt_os_footer,
-.service_footer,
-.om_os_footer,
-.vigtige_links_footer {
-  margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
 }
