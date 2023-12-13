@@ -121,12 +121,6 @@
   margin-bottom: 30px;
 }
 
-.vigtige_links {
-  grid-row: 2;
-  grid-column: 2;
-  text-align: left;
-}
-
 @media (min-width: 800px) {
   .section_et {
     display: grid;
@@ -160,8 +154,7 @@
   }
 
   .section_et h2 {
-    margin-left: 110px;
-    margin-top: 38px;
+    margin-left: 100px;
   }
 
   .section_forside_1 {
@@ -199,7 +192,7 @@
   .mail_service {
     background-color: #262524;
     color: #ffffff;
-    background-image: url(billeder/splash.png);
+    background-image: url(billeder/splash.webp);
     background-position: top;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     border-radius: 60px;

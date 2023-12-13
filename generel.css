@@ -50,6 +50,7 @@ body {
   padding: 40px;
   font-size: 10px;
   margin-bottom: 60px;
+  margin-top: 80px;
 }
 
 .knap a {
@@ -325,16 +326,52 @@ ul.menu {
     margin: auto;
   }
 
+  footer {
+    background-color: #1b1a19;
+    color: #ffffff;
+    background-image: url(billeder/splash.webp);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Tilføj skygge (juster farven og størrelsen efter behov) */
+    border: 2px solid rgba(125, 125, 125, 0.25);
+    border-radius: 60px;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
   .footer_box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    cursor: pointer;
-    gap: 2%;
+    margin-top: 20px;
+    width: 1000px;
+    padding: 20px;
   }
 
-  .footer_bund {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  .vigtige_links {
+    text-align: left;
+  }
+
+  .footer_box p,
+  .footer_box h2 {
+    margin-top: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 2rem;
+    text-align: left;
+  }
+
+  .footer_box .om_os_footer p,
+  .kontakt_os_footer a,
+  .folg_os_footer p,
+  .service_footer p {
+    color: rgb(123, 122, 122);
+  }
+
+  .om_os_footer p:hover,
+  .kontakt_os_footer a:hover,
+  .service_footer p:hover,
+  .folg_os_footer p:hover,
+  .vigtige_links a:hover {
+    color: white;
   }
 
   .rights {
