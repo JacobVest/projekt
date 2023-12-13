@@ -77,11 +77,6 @@ iframe {
   font-weight: lighter;
 }
 
-.om_os_footer {
-  /*margin-left: 110px;
-  margin-top: 40px;*/
-}
-
 .grid_omos {
   display: grid;
   margin-bottom: 10%;
@@ -124,13 +119,6 @@ iframe {
     margin: 6%;
   }
 
-  #fb,
-  #twitter,
-  #insta {
-    width: 8%;
-    margin: auto;
-  }
-
   .omosp {
     text-align: center;
     color: #bababa;
@@ -138,9 +126,5 @@ iframe {
 
     margin-top: 20px;
     padding: 10px;
-  }
-
-  .vid {
-    margin-left: 52.5px;
   }
 }

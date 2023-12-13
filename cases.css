@@ -19,11 +19,6 @@
 
 img {
   border-radius: 10%;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.68);
-}
-
-#footerlogo {
-  box-shadow: none;
 }
 
 .cases_data {
@@ -61,16 +56,6 @@ img {
   margin: 10px auto;
 }
 
-.footer_box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-#footerlogo {
-  box-shadow: none;
-}
-
 /* animation */
 
 .cases_indhold:hover {
@@ -88,7 +73,14 @@ img {
   transition: all 1s ease;
 }
 
-/* animation end */
+.gradient-text_h2 {
+  margin-bottom: 40px;
+  padding: 5px;
+}
+
+.casesmain {
+  margin-bottom: 80px;
+}
 
 @media (min-width: 700px) {
   .companies {
@@ -102,13 +94,10 @@ img {
 
   .casesmain {
     padding: 40px;
+    margin-bottom: 80px;
   }
 
   .cases_grid {
-    /* background-image: url(billeder/bag.png);
-    background-position: left;
-    background-size: 100%;
-    background-repeat: repeat; */
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -118,11 +107,5 @@ img {
     padding-left: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  .footer_box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 40px;
-    margin-bottom: 40px;
   }
 }
