@@ -241,7 +241,7 @@ ul.menu {
 .nav-menu {
   position: fixed;
   left: -100%;
-  top: 70px;
+  top: 0px;
   gap: 0px;
   flex-direction: column;
   /* background-image: white; */
@@ -289,6 +289,7 @@ ul.menu {
 
 .logo {
   max-width: 100px;
+  z-index: 99;
 }
 
 @media (min-width: 800px) {
