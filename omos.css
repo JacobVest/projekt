@@ -16,7 +16,16 @@
 }
 
 .vid {
-  margin-left: 70px;
+  padding: 40px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  max-width: 1250px;
+  margin: 0 auto;
+
+  aspect-ratio: 16/9;
 }
 
 .gradient-text40 {
@@ -129,5 +138,9 @@
 
     margin-top: 20px;
     padding: 10px;
+  }
+
+  .vid {
+    margin-left: 52.5px;
   }
 }
