@@ -9,14 +9,9 @@ form {
   font-family: montserrat;
 }
 
-footer {
-  margin-top: 200px;
-  margin-bottom: 50px;
-}
-
 .gradient-text30 {
   font-size: 30px;
-  margin-top: -245px;
+  text-align: left;
 }
 
 h5 {
@@ -72,8 +67,9 @@ section {
   background-color: #08080b;
   align-items: center;
   margin: 0 auto;
-  border-radius: 5%;
+  border-radius: 50px;
   margin-top: 5%;
+  margin-bottom: 80px;
 }
 .kontakt_os_grid2 {
   padding: 2rem;
@@ -133,20 +129,7 @@ button:hover {
   border-radius: 5%;
 }
 
-.footer-main {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  background-color: white;
-}
-
 @media (max-width: 600px) {
-  .footer-about,
-  .footer-services {
-    width: 100%;
-    margin-bottom: 20px;
-  }
   .book_meeting_header {
     display: none;
   }
@@ -156,5 +139,13 @@ button:hover {
   .kontakt_os_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .form-felt {
+    margin-top: 100px;
+  }
+
+  .knap {
+    justify-items: left;
   }
 }
