@@ -129,7 +129,7 @@ h2 {
 .email_logo {
   height: 110px;
   width: 150px;
-  margin-left: 180px;
+  margin-left: 0 auto;
 }
 
 .grid1 {
@@ -180,6 +180,7 @@ h2 {
 
 .gradient-text50 {
   text-align: left;
+  margin-top: -500px;
 }
 
 .email_p {
@@ -194,11 +195,6 @@ h2 {
 
 .gradient-text1 {
   font-size: 2.5rem;
-}
-
-.gradient-text50 {
-  text-align: left;
-  margin-top: -241px;
 }
 
 .services_h2 {
@@ -258,5 +254,9 @@ h2 {
 
   footer {
     margin-top: -300px;
+  }
+
+  .gradient-text50 {
+    margin-top: -220px;
   }
 }
