@@ -32,6 +32,14 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.cases_data h2 {
+  padding-top: 30px;
+  text-align: center;
+}
+.cases_data h3,
+.cases_data p {
+  padding-left: 5px;
+}
 
 .cases_data_indhold {
   /* margin: 10px auto;

@@ -3,9 +3,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.gradient-text {
+  margin-bottom: 60px;
+}
+.gradient-text_h2 {
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.gradient-text_h3 {
+  font-size: 50px;
+}
+
 .vid {
   margin-left: 70px;
-  margin-bottom: 180px;
 }
 
 .gradient-text40 {
@@ -24,7 +35,6 @@
 }
 
 .omosh3 {
-  color: white;
   text-align: center;
   font-size: 1.3rem;
   margin-top: 15px;
@@ -34,7 +44,9 @@
   text-align: center;
   color: #bababa;
   line-height: 2rem;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .stjerne {
@@ -86,21 +98,6 @@
   border-radius: 5%;
 }
 
-.knap {
-  text-align: center;
-  margin: 150px;
-}
-
-.knap a {
-  padding: 14px 24px;
-  background-color: #262524;
-  color: #ffffff;
-  display: inline-block;
-  border-radius: 7px;
-  font-family: montserrat;
-  font-size: 4rem;
-}
-
 @media (min-width: 768px) {
   .portrait_grid {
     display: grid;
@@ -123,5 +120,14 @@
   #insta {
     width: 8%;
     margin: auto;
+  }
+
+  .omosp {
+    text-align: center;
+    color: #bababa;
+    line-height: 2rem;
+
+    margin-top: 20px;
+    padding: 10px;
   }
 }
