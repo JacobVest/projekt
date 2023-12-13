@@ -293,4 +293,44 @@ ul.menu {
     width: 147px;
     padding-top: 10px;
   }
+
+  #footerlogo {
+    width: 50%;
+    margin: auto;
+  }
+
+  .footer_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+    gap: 2%;
+  }
+
+  .footer_bund {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .rights {
+    margin: auto;
+  }
+
+  .ikoner {
+    display: flex;
+  }
+
+  .logom {
+    margin: auto;
+  }
+
+  .rights {
+    margin: auto;
+  }
+
+  .kontakt_os_footer,
+  .service_footer,
+  .om_os_footer,
+  .vigtige_links_footer {
+    margin: 0 auto;
+  }
 }
