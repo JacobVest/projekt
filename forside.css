@@ -7,12 +7,8 @@
   margin-top: 50px;
 }
 
-body {
-  margin: 10px;
-}
-
 .logo {
-  width: 190px;
+  width: 147px;
 }
 
 .prove {
@@ -177,7 +173,7 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   }
   .logo {
-    width: 190px;
+    width: 147px;
     padding-top: 10px;
   }
 
@@ -260,10 +256,6 @@ footer {
   .section_trustpilot img {
     width: 300px;
     height: auto;
-  }
-
-  .body_forside {
-    margin: 30px;
   }
 
   .image-container {
