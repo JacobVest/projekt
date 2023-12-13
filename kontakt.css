@@ -16,7 +16,7 @@ footer {
 
 .gradient-text30 {
   font-size: 30px;
-  margin-top: -245px;
+  text-align: left;
 }
 
 h5 {
@@ -156,5 +156,9 @@ button:hover {
   .kontakt_os_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .form-felt {
+    margin-top: 100px;
   }
 }
