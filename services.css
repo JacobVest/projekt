@@ -21,7 +21,6 @@
 
 h1 {
   font-size: 50px;
-  padding: 0;
 }
 
 .book_meeting {
@@ -55,6 +54,8 @@ h1 {
 
 .resultater_p {
   padding-bottom: 15px;
+  padding-left: 42px;
+  padding-right: 42px;
 }
 
 .resultater {
@@ -259,11 +260,12 @@ h2 {
 }
 
 .services_h2 {
-  font-weight: bolder;
+  color: white;
 }
 
-.grae {
-  color: #bababa;
+.services_h2_2 {
+  padding-top: 20px;
+  color: white;
 }
 
 /* .billede {
