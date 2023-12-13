@@ -90,12 +90,14 @@ footer {
   margin: 0 auto;
   font-size: 12px;
   line-height: 2rem;
+  margin-right: 40px;
 }
 
 .footer_box .om_os_footer p,
-.kontakt_os_footer a,
+.kontakt_os_footer p,
 .folg_os_footer p,
-.service_footer p {
+.service_footer p,
+.vigtige_links a {
   color: rgb(123, 122, 122);
 }
 
@@ -105,6 +107,10 @@ footer {
 .folg_os_footer p:hover,
 .vigtige_links a:hover {
   color: white;
+}
+
+.footer_bund {
+  margin-top: -50px;
 }
 
 img {
@@ -265,7 +271,16 @@ ul.menu {
 }
 
 #footerlogo {
-  width: 20%;
+  width: 30%;
+}
+
+.ikoner {
+  width: 10%;
+  display: flex;
+  gap: 20px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
 
 .logom {
@@ -322,7 +337,7 @@ ul.menu {
   }
 
   #footerlogo {
-    width: 50%;
+    width: 10%;
     margin: auto;
   }
 
@@ -334,7 +349,7 @@ ul.menu {
     border: 2px solid rgba(125, 125, 125, 0.25);
     border-radius: 60px;
     padding: 20px;
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     margin-bottom: 10px;
   }
@@ -342,12 +357,8 @@ ul.menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 20px;
-    width: 1000px;
+    width: 1200px;
     padding: 20px;
-  }
-
-  .vigtige_links {
-    text-align: left;
   }
 
   .footer_box p,
@@ -355,7 +366,7 @@ ul.menu {
     margin-top: 10px;
     margin: 0 auto;
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 50px;
     text-align: left;
   }
 
@@ -375,18 +386,20 @@ ul.menu {
   }
 
   .rights {
-    margin: auto;
+    margin: 0 auto;
   }
 
   .ikoner {
     display: flex;
+    justify-content: space-between;
+    width: 40px;
+    gap: 20px;
+    margin: 0 auto;
+    margin-left: 500px;
+    margin-bottom: 30px;
   }
 
   .logom {
-    margin: auto;
-  }
-
-  .rights {
     margin: auto;
   }
 
